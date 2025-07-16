@@ -1,0 +1,27 @@
+
+
+html, body {
+  height: 100%;
+  margin: 0; /* importante para que no haya espacio blanco por defecto */
+  padding: 0;
+}
+
+
+div#container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-wrap: wrap;
+   
+   
+   
+}
+
+
+#container div{
+  
+    border: 1px solid black;
+     /*width:calc(100%/tamaño div)Calcula el ancho dividiendo el 100% del ancho de su contenedor entre 16 partes iguales.*/
+      aspect-ratio: 1/1;/*convierte el tamaño de los divs en un cuadrado perfecto*/
+    box-sizing: border-box;/*ancho y alto que defines incluyen el contenido + padding + borde*/
+}
