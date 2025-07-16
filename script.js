@@ -14,6 +14,7 @@ botonLimpiar.addEventListener('click',()=>{
 const crearCuadricula = (tamaño)=>{
 
       let total = tamaño * tamaño;
+    
 
  for(let j=0;j<total;j++){
             let divCreado = document.createElement('div');
